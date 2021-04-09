@@ -13,8 +13,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-<<<<<<< Updated upstream
-=======
     <View
         android:layout_width="match_parent"
         android:layout_height="160dp"
@@ -47,7 +45,7 @@
             android:src="@drawable/ic_increase"/>
 
         <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
+            android:id="@+id/toolbar1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:minHeight="?attr/actionBarSize"
@@ -83,7 +81,7 @@
         app:cardCornerRadius="10dp"
         android:layout_marginRight="20dp">
 
->>>>>>> Stashed changes
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
