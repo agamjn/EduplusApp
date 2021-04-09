@@ -13,6 +13,77 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+<<<<<<< Updated upstream
+=======
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:id="@+id/view1"
+        android:background="@drawable/bg_content1"/>
+
+        <TextView
+            android:textSize="20dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/toolbar"
+            android:textColor="#ffff"
+            android:id="@+id/head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="Track your learning performance and progress reports">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/toolbar"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_alignLeft="@+id/v1"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_increase"/>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:navigationIcon="@drawable/ic_left_arrow">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Analysis Reports"
+                android:textFontWeight="100"
+                android:layout_marginLeft="70dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"
+                android:id="@+id/toolbar_title" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/card0"
+        android:layout_below="@+id/view1"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:elevation="4dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginRight="20dp">
+
+>>>>>>> Stashed changes
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
